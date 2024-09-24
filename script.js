@@ -30,13 +30,6 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
   })
 };
 
-// Retour au début lors de l'appuie sur le logo
-const headerLogoContainer = document.querySelector('.header__logo-container');
-
-headerLogoContainer.addEventListener('click', () => {
-  location.href = '../';
-});
-
 //Bonjour en differentes langues
 const translations = [
   "Yo",
